@@ -42,3 +42,4 @@ b.)After successful submission:<br />
 
 ### GitHub:
 1. You can visit the live website at https://er-anoopsingh.github.io/Mini-facebook<br />
+2. You can view the source code at https://github.com/er-anoopsingh/Mini-facebook.
