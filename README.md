@@ -28,7 +28,7 @@ a.) Submitting your access token:<br />
     8. Simply paste the copied token and click on Go.<br />
     9. And your profile is live.<br />
     
-    *you can also click "provide access token" button and repeat 8,9 step.<br />
+    *you can also click "provide access token" button and repeat 8,9 step.
     
 b.)After successful submission:<br />
   1. You will see your basic info and top 5 posts from your feed.<br />
