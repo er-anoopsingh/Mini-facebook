@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mini Facebook</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<!--Navbar-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><img src="css/icon.png" class="logo" alt=""> Mini Facebook</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class=" navbar-collapse collapse" id="menu">
+        <ul class="nav navbar-nav text-center" style="margin-top: 10px; margin-left: 30%;">
+          <li><button type="button" class="btn acc-token" data-toggle="modal" data-target="#myModal">Provide Access Token</button></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#myfeed">My Feed</a></li>
+        </ul>
+      </div>
+    </div><!--end of navbar-->
+
+<!-- Modal to take access token as input-->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Enter your access token</h4>
+          </div>
+          <div class="modal-body">
+            <input id="inp-token"></input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="save">Go</button>
+          </div>
+        </div>
+
+      </div>
+    </div> <!--end of modal-->
+
+    <div class="container upper">
+      <div class="row">
+        <div class="col-md-3 col-xs-12 text-center" id="left-side">
+          <img id="profile" src="" class="img-responsive img-circle img-center " alt="profile pic">
+          <h2 id="full-name"></h2>
+          <div class="white-back">
+            <p id="info" class="info"></p>
+            <a class="down" name="button" target="_blank" id="visit-profile">Visit actual profile</a><!--No cv yet to be downloaded :P-->
+          </div>
+        </div>
+
+        <!--Work and education description-->
+      <div class="col-md-8 col-xs-12" id="right-side">
+        <h2 id="work"></h2>
+        <div id="fb-work">
+        </div>
+        <hr>
+        <h2 id="edu"></h2>
+        <div id="fb-edu">
+        </div>
+      </div><!--end Work and education description-->
+    </div><!--end of decription row-->
+
+      <!--feed-->
+      <div id="myfeed">
+
+      </div>
+
+
+    </div>
+    <!--end of body-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
