@@ -23,15 +23,14 @@ a.) Submitting your access token:<br />
     3. Beside "Access Token" field there is a "get Token" button click it.<br />
     4. Then click "get user access token" link.<br />
     5. Select what all permissions you want to give and click "Get Access Token" button.<br />
-    6. Your access token will be displayed in "access token" field.
-    
-     ![Alt text](css/access.jpg?raw=true "Access token")
-     
+    6. Your access token will be displayed in "access token" field.<br />     
     7. Copy the token, then come back to our website.<br />
     8. Simply paste the copied token and click on Go.<br />
     9. And your profile is live.<br />
 
     *you can also click "provide access token" button and repeat 8,9 step.*
+
+![Alt text](css/access.jpg?raw=true "Access token")
 
 b.)After successful submission:<br />
   1. You will see your basic info and top 5 posts from your feed.<br />
