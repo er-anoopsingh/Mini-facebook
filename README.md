@@ -3,8 +3,6 @@
 ### What is it:
 A bootstrap and jquery based website where user can enter his/her access token and see their basic profile information and posts from their feed.
 
-![Alt text](css/access.jpg?raw=true "Access token")
-
 ### What is access token:
 It's a key which facebook generates and provides to users for limited time so that their API's can be accessed.
 
@@ -35,6 +33,8 @@ a.) Submitting your access token:<br />
 b.)After successful submission:<br />
   1. You will see your basic info and top 5 posts from your feed.<br />
   2. To see more posts you can click Load more button and it will load next 5 posts.<br />
+  
+  ![Alt text](css/access.jpg?raw=true "Access token")
 
 ### Common errors:
 1. If error "Please enter a valid token" is displayed then re-check your access token it may have expired, don't worry.<br />
