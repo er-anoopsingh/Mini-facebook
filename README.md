@@ -1,7 +1,7 @@
 ## Welcome to Mini Facebook 
 
 ### What is it:
-A bootstrap based website where user can enter his/her access token and see their basice profile information and posts from their feed.
+A bootstrap and jquery based website where user can enter his/her access token and see their basice profile information and posts from their feed.
 
 ### What is access token:
 It's a key which facebook generates and provides to users for limited time so that their API's can be accessed.
