@@ -23,7 +23,7 @@ a.) Submitting your access token:<br />
     3. Beside "Access Token" field there is a "get Token" button click it.<br />
     4. Then click "get user access token" link.<br />
     5. Select what all permissions you want to give and click "Get Access Token" button.<br />
-    6. Your access token will be displayed in "access token" field.<br />
+    6. Your access token will be displayed in "access token" field.
     
      ![Alt text](css/access.jpg?raw=true "Access token")
      
