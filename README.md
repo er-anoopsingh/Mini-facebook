@@ -7,8 +7,8 @@ A bootstrap and jquery based website where user can enter his/her access token a
 It's a key which facebook generates and provides to users for limited time so that their API's can be accessed.
 
 ### How it works:
-1.Two requests are made to facebook api when user submits access token:
-	1st : "https://graph.facebook.com/me?access_token=" which contains user information
+#### 1.Two requests are made to facebook api when user submits access token:
+	1st : "https://graph.facebook.com/me?access_token=" which contains user information	
 	2nd : "https://graph.facebook.com/me/feed?access_token=" which contains posts from user feed
 
 2. on successful requests 2 function calls are made:
