@@ -38,7 +38,7 @@ b.)After successful submission:<br />
 1. If error "Please enter a valid token" is displayed then re-check your access token it may have expired, don't worry.<br />
 2. You can again follow the (a) steps to generate new token.<br />
 
-    *Also make sure you are logged in this whole time to your facebook account or else token will be invalid.<br />
+    *also make sure you are logged in this whole time to your facebook account or else token will be invalid.<br />
     
 ### GitHub:
 1. You can visit the live website at https://er-anoopsingh.github.io/Mini-facebook<br />
