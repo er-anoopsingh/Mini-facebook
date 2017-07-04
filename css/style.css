@@ -135,6 +135,7 @@ h2{
   padding-bottom: 20px;
   }
 
+/*to format psots in feed*/
 #feed-img-id{
   width: 35px;
 }
@@ -153,6 +154,7 @@ h2{
   margin: 20px 0;
 }
 
+/*load more button*/
 .btn-center{
   background-color: #4267b2;
   margin-left: 50%;
@@ -165,6 +167,7 @@ h2{
   color: #fff;
 }
 
+/*provide access token button*/
 .acc-token{
   background-color: #4267b2;
   color: #fff;
@@ -179,6 +182,7 @@ h2{
   color: #fff;
 }
 
+/*modal input field*/
 #inp-token{
   width: 100%;
 }
