@@ -24,6 +24,9 @@ a.) Submitting your access token:<br />
     4. Then click "get user access token" link.<br />
     5. Select what all permissions you want to give and click "Get Access Token" button.<br />
     6. Your access token will be displayed in "access token" field.<br />
+    
+     ![Alt text](css/access.jpg?raw=true "Access token")
+     
     7. Copy the token, then come back to our website.<br />
     8. Simply paste the copied token and click on Go.<br />
     9. And your profile is live.<br />
@@ -34,8 +37,6 @@ b.)After successful submission:<br />
   1. You will see your basic info and top 5 posts from your feed.<br />
   2. To see more posts you can click Load more button and it will load next 5 posts.<br />
   
-  ![Alt text](css/access.jpg?raw=true "Access token")
-
 ### Common errors:
 1. If error "Please enter a valid token" is displayed then re-check your access token it may have expired, don't worry.<br />
 2. You can again follow the (a) steps to generate new token.<br />
