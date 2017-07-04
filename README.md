@@ -3,7 +3,7 @@
 ### What is it:
 A bootstrap and jquery based website where user can enter his/her access token and see their basic profile information and posts from their feed.
 
-![Alt text](css/icon.png?raw=true "Optional Title")
+![Alt text](css/access.jpg?raw=true "Access token")
 
 ### What is access token:
 It's a key which facebook generates and provides to users for limited time so that their API's can be accessed.
